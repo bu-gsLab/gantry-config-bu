@@ -7,7 +7,7 @@
 
 chuck_number.ETROC: 1
 
-default.Module_PCB.2.1.pos: {331.967077,448.649333,75.317618}
+default.Module_PCB.2.1.pos: {334.656104,448.986599,87.306931}
 default.Module_PCB.2.1.rot: {-0.000000,0.000000,0.000163,-1.000000}
 
 # default.Module_PCB.2.2.pos: {382.526220,448.811112,80.794428}

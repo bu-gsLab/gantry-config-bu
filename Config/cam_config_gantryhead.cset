@@ -5,7 +5,7 @@ AcquisitionFrameCountValueControl	1
 AcquisitionFrameRateTargetEnableValueControl	0
 AcquisitionModeValueControl	2
 ExposureAutoValueControl	0
-SensorExposureTimeClocksValueControl	1110176
+SensorExposureTimeClocksValueControl	336608
 SensorFrameTimeClocksTargetValueControl	3700000
 SensorFrameTimeClocksValueControl	2017344
 TriggerActivationValueControl	{TriggerSelector=AcquisitionStart}	0

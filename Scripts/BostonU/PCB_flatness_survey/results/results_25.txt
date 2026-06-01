@@ -1,0 +1,8 @@
+Corner to corner distance: 72.064
+Points: [[313.123, 420.064, 86.799], [357.11, 420.064, 87.892], [313.122, 477.145, 87.038], [357.11, 477.145, 86.695]]
+Best fit plane normal: [-0.009  0.008  1.   ]
+Centroid of plane: [335.116 448.605  87.106]
+Distances: [-0.337  0.36   0.358 -0.381]
+Absolute distances: [0.337 0.36  0.358 0.381]
+Max distance: 0.381
+Warpage: 0.529%

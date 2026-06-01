@@ -31,6 +31,8 @@ manifold.port.13: cDAQ1Mod2/port0/line13
 manifold.port.14: cDAQ1Mod2/port0/line14
 manifold.port.15: cDAQ1Mod2/port0/line15
 
+
+# Lines 7 and 11 currently broken
 manifold.port.16: cDAQ1Mod1/port0/line0
 manifold.port.17: cDAQ1Mod1/port0/line1
 manifold.port.18: cDAQ1Mod1/port0/line2
@@ -71,20 +73,23 @@ vacuum.etl_chuck_2: 28
 
 vacuum.croc_1x2_chuck_0: 17
 vacuum.croc_1x2_chuck_1: 25
-vacuum.croc_1x2_chuck_2: 27
+vacuum.croc_1x2_chuck_2: 26
 vacuum.croc_1x2_chuck_3: 29
 vacuum.croc_1x2_chuck_4: 31
-vacuum.croc_launchROC_bot: 21
-vacuum.croc_launchROC_top: 19
-vacuum.croc_launchHDI: 23
+vacuum.croc_launchROC: 21
+vacuum.croc_launchHDI: 22
 vacuum.croc_weight_0: 16
+vacuum.croc_weight_1: 24
+vacuum.croc_weight_2: 23
+vacuum.croc_weight_3: 27
+vacuum.croc_weight_4: 19
 
 vacuum.gelpak_release: 30
 
 motion.travel_speed: 75  # mm/s
 
 tool_rack.1: picker_tool
-tool_rack.2: none
+tool_rack.2: spacer_tool
 tool_rack.3: none
 
 tool_exchange_vacuum_delay: 1500  # ms
@@ -129,8 +134,8 @@ graph_motion.pos.home: {0,0,0}
 graph_motion.pos.tool_rack_pos_1_in:  {642.400,84.500,90.301}
 graph_motion.pos.tool_rack_pos_1_out: {642.400,171,90.301}
 
-# graph_motion.pos.tool_rack_pos_2_in:  {803.368,16.121,37.918}
-graph_motion.pos.tool_rack_pos_2_out: {803.368,171,37.918}
+graph_motion.pos.tool_rack_pos_2_in:  {792.300,84.363,92.594}
+graph_motion.pos.tool_rack_pos_2_out: {792.300,171,92.594}
 
 # graph_motion.pos.tool_rack_pos_3_in:  {955.889,16.712,36.435}
 graph_motion.pos.tool_rack_pos_3_out: {955.889,171,36.435}
@@ -147,7 +152,7 @@ graph_motion.edge.home.etl_chuck_2: True
 
 
 graph_motion.edge.tool_rack_pos_1_out.tool_rack_pos_1_in: True
-# graph_motion.edge.tool_rack_pos_2_out.tool_rack_pos_2_in: True
+graph_motion.edge.tool_rack_pos_2_out.tool_rack_pos_2_in: True
 # graph_motion.edge.tool_rack_pos_3_out.tool_rack_pos_3_in: True
 graph_motion.edge.tool_rack_pos_1_out.tool_rack_pos_2_out: True
 graph_motion.edge.tool_rack_pos_2_out.tool_rack_pos_3_out: True
@@ -158,6 +163,7 @@ graph_motion.edge.etl_chuck_2.tool_rack_pos_1_out: True
 graph_motion.edge.etl_chuck_1.etl_chuck_2: True
 
 graph_motion.edge.tool_rack_pos_1_out.croc_1x2_fixture: True
+graph_motion.edge.tool_rack_pos_2_out.croc_1x2_fixture: True
 graph_motion.edge.etl_chuck_2.croc_1x2_fixture: True
 graph_motion.edge.home.croc_1x2_fixture: True
 

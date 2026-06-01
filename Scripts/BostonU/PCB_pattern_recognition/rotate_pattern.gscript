@@ -12,8 +12,8 @@ SETLIGHT 30 gantryhead
 AUTOFOCUS $focus 2 0 autoclose
 SNAPSHOT gantryhead search.png
 
-EXEC "python C:\Users\User\Desktop\gantry-config-bu\Scripts\BostonU\rotatePR\template.py --corner tl --scaledown .05"
-LOADCONFIG "" "Scripts\BostonU\rotatePR\config\fid_loc.txt"
+EXEC "python C:\Users\User\Desktop\gantry-config-bu\Scripts\BostonU\PCB_pattern_recognition\template.py --corner tl --scaledown .05"
+LOADCONFIG "" "Scripts\BostonU\PCB_pattern_recognition\config\fid_loc.txt"
 
 FLEXREAD $tl_dif_x fidx
 FLEXREAD $tl_dif_y fidy
@@ -29,8 +29,8 @@ SETLIGHT 30 gantryhead
 AUTOFOCUS $focus 2 0 autoclose
 SNAPSHOT gantryhead search.png
 
-EXEC "python C:\Users\User\Desktop\gantry-config-bu\Scripts\BostonU\rotatePR\template.py --corner tr --scaledown .05"
-LOADCONFIG "" "Scripts\BostonU\rotatePR\config\fid_loc.txt"
+EXEC "python C:\Users\User\Desktop\gantry-config-bu\Scripts\BostonU\PCB_pattern_recognition\template.py --corner tr --scaledown .05"
+LOADCONFIG "" "Scripts\BostonU\PCB_pattern_recognition\config\fid_loc.txt"
 
 FLEXREAD $tr_dif_x fidx
 FLEXREAD $tr_dif_y fidy
@@ -48,8 +48,8 @@ SETLIGHT 30 gantryhead
 AUTOFOCUS $focus 2 0 autoclose
 SNAPSHOT gantryhead search.png
 
-EXEC "python C:\Users\User\Desktop\gantry-config-bu\Scripts\BostonU\rotatePR\template.py --corner br --scaledown .05"
-LOADCONFIG "" "Scripts\BostonU\rotatePR\config\fid_loc.txt"
+EXEC "python C:\Users\User\Desktop\gantry-config-bu\Scripts\BostonU\PCB_pattern_recognition\template.py --corner br --scaledown .05"
+LOADCONFIG "" "Scripts\BostonU\PCB_pattern_recognition\config\fid_loc.txt"
 
 FLEXREAD $br_dif_x fidx
 FLEXREAD $br_dif_y fidy
@@ -66,8 +66,8 @@ SETLIGHT 30 gantryhead
 AUTOFOCUS $focus 2 0 autoclose
 SNAPSHOT gantryhead search.png
 
-EXEC "python C:\Users\User\Desktop\gantry-config-bu\Scripts\BostonU\rotatePR\template.py --corner bl --scaledown .05"
-LOADCONFIG "" "Scripts\BostonU\rotatePR\config\fid_loc.txt"
+EXEC "python C:\Users\User\Desktop\gantry-config-bu\Scripts\BostonU\PCB_pattern_recognition\template.py --corner bl --scaledown .05"
+LOADCONFIG "" "Scripts\BostonU\PCB_pattern_recognition\config\fid_loc.txt"
 
 FLEXREAD $bl_dif_x fidx
 FLEXREAD $bl_dif_y fidy

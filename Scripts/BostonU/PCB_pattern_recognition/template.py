@@ -66,22 +66,22 @@ args = parser.parse_args()
 if __name__ == "__main__":
     # === usage ===
     if args.corner == 'tl':
-        template = cv2.imread('C:/Users/User/Desktop/gantry-config-bu/Scripts/BostonU/rotatePR/pcb_templates/pcb_tl_template.png', cv2.IMREAD_GRAYSCALE)
+        template = cv2.imread('C:/Users/User/Desktop/gantry-config-bu/Scripts/BostonU/PCB_pattern_recognition/pcb_templates/pcb_tl_template.png', cv2.IMREAD_GRAYSCALE)
         offsetx = 125
         offsety = 130
         cor = 1
     elif args.corner == 'tr':
-        template = cv2.imread('C:/Users/User/Desktop/gantry-config-bu/Scripts/BostonU/rotatePR/pcb_templates/pcb_tr_template.png', cv2.IMREAD_GRAYSCALE)
+        template = cv2.imread('C:/Users/User/Desktop/gantry-config-bu/Scripts/BostonU/PCB_pattern_recognition/pcb_templates/pcb_tr_template.png', cv2.IMREAD_GRAYSCALE)
         offsetx = 230
         offsety = 590
         cor=2
     elif args.corner == 'br':
-        template = cv2.imread('C:/Users/User/Desktop/gantry-config-bu/Scripts/BostonU/rotatePR/pcb_templates/pcb_br_template.png', cv2.IMREAD_GRAYSCALE)
+        template = cv2.imread('C:/Users/User/Desktop/gantry-config-bu/Scripts/BostonU/PCB_pattern_recognition/pcb_templates/pcb_br_template.png', cv2.IMREAD_GRAYSCALE)
         offsetx = 1070
         offsety = 690
         cor=3
     elif args.corner == 'bl':
-        template = cv2.imread('C:/Users/User/Desktop/gantry-config-bu/Scripts/BostonU/rotatePR/pcb_templates/pcb_bl_template.png', cv2.IMREAD_GRAYSCALE)
+        template = cv2.imread('C:/Users/User/Desktop/gantry-config-bu/Scripts/BostonU/PCB_pattern_recognition/pcb_templates/pcb_bl_template.png', cv2.IMREAD_GRAYSCALE)
         offsetx = 20
         offsety = 1110
         cor=4
@@ -103,7 +103,7 @@ if __name__ == "__main__":
     gantryx = (fid_x-picw//2)*(1/scale_down)*(.83/1224)
     gantryy = (fid_y-pich//2)*(1/scale_down)*(.7/1024)
 
-    configfile = "C:/Users/User/Desktop/gantry-config-bu/Scripts/BostonU/rotatePR/config/fid_loc.txt"
+    configfile = "C:/Users/User/Desktop/gantry-config-bu/Scripts/BostonU/PCB_pattern_recognition/config/fid_loc.txt"
     content = f"fidx: {gantryx}\nfidy: {gantryy}\ncor: {cor}"
 
     with open(configfile, "w") as file:
