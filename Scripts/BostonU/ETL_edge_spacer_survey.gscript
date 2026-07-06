@@ -1,0 +1,12 @@
+COPY $center {97.304,353.238,91.599}
+
+ADD $out_of_way $center {100,0,0}
+
+COPY $count 0
+@LOOP
+    INC $count
+    MOVETO $out_of_way 50
+    ALERT "Place spacer {$count}"
+    MOVETO $center 50
+    SURVEY $center 3.3 16.6 medium "spacer_survey_{$count}.png"
+GOTO @LOOP

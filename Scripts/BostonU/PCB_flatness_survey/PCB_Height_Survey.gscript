@@ -29,8 +29,13 @@ HOME if-needed
 # GETPOS $pcb_br
 # PRINT "br {$pcb_br:%v}"
 
-COPY $pcb_tl {365.595789,427.134449,86.898352}
-COPY $pcb_br {404.095806,469.634446,86.898353}
+# These are for chuck 2 position 1
+COPY $pcb_tl {310.322040,425.273238,74.533438}
+COPY $pcb_br {353.201395,471.545214,73.868631}
+
+# These are for chuck 2 position 2
+#COPY $pcb_tl {310.332732,425.267847,74.571525}
+#COPY $pcb_br {404.095806,469.634446,86.898353}
 
 SUB $dif $pcb_br $pcb_tl
 
