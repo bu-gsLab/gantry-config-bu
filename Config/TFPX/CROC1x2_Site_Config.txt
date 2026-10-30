@@ -29,25 +29,25 @@ top_pin_1x2_hdi_launch: {740.841158,518.175342,65.508771}
 bottom_pin_1x2_hdi_launch: {740.742803,583.009236,65.417099}
 theta_1x2_hdi_launch: -0.067444 # degrees
 
-top_pin_chuck_0: {640.649134,518.031076,65.436156}
+top_pin_chuck_0: {640.680267,517.994118,65.436156}
 bottom_pin_chuck_0: {640.690347,582.998672,65.439689}
-theta_chuck_0: -0.071057 # degrees
+theta_chuck_0: -0.056838 # degrees
 
-top_pin_chuck_1: {640.903251,365.607509,65.499667}
+top_pin_chuck_1: {640.861406,365.586884,65.499667}
 bottom_pin_chuck_1: {640.753165,430.461626,65.514947}
-theta_chuck_1: 0.040172 # degrees
+theta_chuck_1: 0.045892 # degrees
 
-top_pin_chuck_2: {690.892020,365.769531,65.630259}
-bottom_pin_chuck_2: {690.931628,430.687853,65.491716}
-theta_chuck_2: 0.028595 # degrees
+top_pin_chuck_2: {690.659,365.294,65.835}
+bottom_pin_chuck_2: {690.893,430.180,65.630}
+theta_chuck_2: -0.1786928 # degrees
 
-top_pin_chuck_3: {740.829762,365.813316,65.430977}
-bottom_pin_chuck_3: {740.829670,430.739583,65.471134}
-theta_chuck_3: -0.050341 # degrees
+top_pin_chuck_3: {740.800,365.817,65.646}
+bottom_pin_chuck_3: {740.956,430.679,65.636}
+theta_chuck_3: -0.059512 # degrees
 
-top_pin_chuck_4: {790.918616,365.660841,65.415618}
-bottom_pin_chuck_4: {790.830611,430.599075,65.436166}
-theta_chuck_4: -0.050341 # degrees
+top_pin_chuck_4: {790.933,365.652,65.591}
+bottom_pin_chuck_4: {790.971,430.535,65.607}
+theta_chuck_4: -0.019316 # degrees
 
 
 ## Drop Correction (Mockup)
@@ -55,12 +55,12 @@ theta_chuck_4: -0.050341 # degrees
 # drop_rotation: 0.016924 # degrees
 
 ## Drop Correction (Sensor)
-drop_correction: {-0.006272,0.045395,0.000000}
-drop_rotation: 0.023427 # degrees
+drop_correction: {0.006363,-0.008181,0.000000}
+drop_rotation: 0.006437 # degrees
 
 ## Feedback from Assemble_1x2_sensor.gscript
 chip_offset: {-60.826846,33.935852,0.000000}
 chip_angle: -0.281002 # degrees
 
-hdi_offset: {-8.733417,32.242773,0.000000}
-hdi_angle: 0.261927 # degrees
+hdi_offset: {-8.463812,31.994859,0.000000}
+hdi_angle: 0.062993 # degrees

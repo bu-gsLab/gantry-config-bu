@@ -12,13 +12,13 @@ chuck_number.Module_PCB: 2
 default.Module_PCB.2.1.pos: {334.394,448.372,75.516}
 default.Module_PCB.2.1.rot: {0.001,0.001,0.002,0.999}
 
-default.Module_PCB.2.2.pos: {385.527007,448.873511,87.475017}
+default.Module_PCB.2.2.pos: {385.527007,448.873511,75.516}
 default.Module_PCB.2.2.rot: {-0.000269,-0.000001,-0.000148,1.000000}
 
-# default.Module_PCB.2.3.pos: {433.380846,448.809385,80.719448}
+# default.Module_PCB.2.3.pos: {433.380846,448.809385,75.516}
 # default.Module_PCB.2.3.rot: {-0.000841,-0.000001,-0.000424,-1.000000}
 
-# default.Module_PCB.2.4.pos: {484.181755,448.843714,80.807680}
+# default.Module_PCB.2.4.pos: {484.181755,448.843714,75.516}
 # default.Module_PCB.2.4.rot: {-0.000001,-0.000000,-0.000404,-1.000000}
 
 #ETROC Center Positions
